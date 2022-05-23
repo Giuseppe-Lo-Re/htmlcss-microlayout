@@ -1,3 +1,14 @@
+/* COMMON */
+
+.container {
+    width: 98%;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 /* Imagine */
 
 img {
@@ -39,7 +50,7 @@ img {
 
 /* Offers 2 columns */
 
-.product-card .row {
+.product-card .row-offer {
     display: flex;
     justify-content: space-between;
     padding: 1rem 0;
@@ -95,8 +106,17 @@ img {
 
 /* Other Offers */
 
-.other-offers {
-    background-color: lightgoldenrodyellow;
+.product-card .other-offers {
+    display: none;
+}
+
+.product-card .other-offers a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.product-card .price-offer.red {
+    color: red;
 }
 
 /* Comparisons */
@@ -110,7 +130,20 @@ img {
 
 /* Large */
 
-@media screen and (min-width:992pix) {
+@media screen and (min-width:992px) {
+
+    .product-card .pc-image,
+    .product-card .pc-heading,
+    .product-card .row-offer {
+        width: calc(100% /3);
+    }
+
+
     
+    /* Other Offers */
+
+.product-card .other-offers {
+    display: block;
+}
 
 }
