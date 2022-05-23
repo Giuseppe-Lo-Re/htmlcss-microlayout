@@ -1,0 +1,82 @@
+/* Imagine */
+
+img {
+    width: 100%;
+}
+
+/* Product Name */
+
+
+
+/* Heading */
+
+.product-card h2 {
+    padding: 0.5rem 0;
+}
+
+.pc-heading {
+
+    /* test */
+    background-color: lightpink;
+}
+
+/* Circles */
+
+.product-card .circles .circle {
+    width: 1rem;
+    height: 1rem;
+    background-color:#0caa6b;
+    border-radius: 50%;
+}
+
+.product-card .circles > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.product-card .review {
+    vertical-align: middle;
+}
+
+.product-card a {
+    text-decoration: dotted;
+}
+
+/* Offers 2 columns */
+
+.best-offer {
+    background-color: lightblue;
+}
+
+/* Best Offer Button */
+
+.best-offer-btn {
+    background-color: lightcoral;
+}
+
+/* Free Cancellation */
+
+.cancellation {
+    background-color: lightcyan;
+}
+
+/* Other Offers */
+
+.other-offers {
+    background-color: lightgoldenrodyellow;
+}
+
+/* Comparisons */
+
+.comparisons {
+    background-color: lightgreen;
+}
+
+/*-------------------- MEDIA QUERY -------------------- */
+
+/* Large */
+
+@media screen and (min-width:992pix) {
+    
+
+}
