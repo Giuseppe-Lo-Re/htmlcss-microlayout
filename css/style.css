@@ -16,8 +16,6 @@ img {
 
 .pc-heading {
 
-    /* test */
-    background-color: lightpink;
 }
 
 /* Circles */
@@ -38,26 +36,64 @@ img {
     vertical-align: middle;
 }
 
-.product-card a {
-    text-decoration: dotted;
+.product-card .pc-heading a {
+    text-decoration: underline dotted;
+    color: inherit;
 }
 
 /* Offers 2 columns */
 
-.best-offer {
-    background-color: lightblue;
+.product-card .row {
+    padding: 1rem 0;
+}
+
+.product-card .best-offer .old-price {
+    color: red;
+    text-decoration: line-through;
+    font-size: 1.3rem;
+}
+
+.product-card .best-offer .new-price {
+    font-size: 2rem;
+    line-height: 1rem;
+}
+
+.product-card .link-offer {
+    padding-top: 0.5rem;
+}
+
+.product-card .link-offer a {
+    text-decoration: none;
+    color: inherit;
 }
 
 /* Best Offer Button */
 
-.best-offer-btn {
-    background-color: lightcoral;
+.product-card .best-offer-btn {
+    text-align: end;
+}
+
+.product-card .btn {
+    background-color:#f2b303;
+    font-weight: 700;
+    border-radius: 20px;
+    padding: 1rem;
+    display: inline-block;
 }
 
 /* Free Cancellation */
 
+.prenotation-service {
+    padding: 1rem 0;
+    border-bottom: 1px solid gray;
+}
+
 .cancellation {
+    font-size: 1.2rem;
+    font-weight: 700;
+
     background-color: lightcyan;
+    
 }
 
 /* Other Offers */
