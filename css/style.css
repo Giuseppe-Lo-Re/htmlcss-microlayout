@@ -10,12 +10,8 @@ img {
 
 /* Heading */
 
-.product-card h2 {
-    padding: 0.5rem 0;
-}
-
-.pc-heading {
-
+.product-card .pc-heading {
+    line-height: 1.5rem;
 }
 
 /* Circles */
@@ -44,6 +40,8 @@ img {
 /* Offers 2 columns */
 
 .product-card .row {
+    display: flex;
+    justify-content: space-between;
     padding: 1rem 0;
 }
 
@@ -55,7 +53,7 @@ img {
 
 .product-card .best-offer .new-price {
     font-size: 2rem;
-    line-height: 1rem;
+    line-height: 2rem;
 }
 
 .product-card .link-offer {
@@ -75,6 +73,7 @@ img {
 
 .product-card .btn {
     background-color:#f2b303;
+    font-size: 1.5rem;
     font-weight: 700;
     border-radius: 20px;
     padding: 1rem;
@@ -85,15 +84,13 @@ img {
 
 .prenotation-service {
     padding: 1rem 0;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid lightgray;
+    line-height: 1.5rem;
 }
 
 .cancellation {
     font-size: 1.2rem;
-    font-weight: 700;
-
-    background-color: lightcyan;
-    
+    font-weight: 700;   
 }
 
 /* Other Offers */
@@ -105,7 +102,8 @@ img {
 /* Comparisons */
 
 .comparisons {
-    background-color: lightgreen;
+    text-align: center;
+    padding: 0.5rem 0;
 }
 
 /*-------------------- MEDIA QUERY -------------------- */
